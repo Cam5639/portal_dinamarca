@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultura Danesa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="site-header" role="banner">
+        <div class="container header-container">
+            <!-- Menú Hamburguesa -->
+            <button class="menu-toggle" aria-label="Abrir menú principal" aria-expanded="false">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+
+            <!-- Logo Centrado -->
+            <div class="logo-container">
+                <a href="index.html" class="logo-link" aria-label="Página de inicio">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"
+                         alt="Logo Dinamarca"
+                         class="header-flag"
+                         width="40"
+                         height="30"
+                         loading="lazy" />
+                </a>
+            </div>
+
+            <!-- Selector de idioma + mensaje -->
+            <div class="language-selector" aria-label="Selector de idioma" tabindex="0">
+                <span class="welcome-message" aria-live="polite">¡Hola!</span>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"
+                     alt="Idioma actual ES" width="24" height="18" />
+                <span class="language-text">ES</span>
+                <div class="language-options">
+                    <div class="language-option"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg" alt="Danés" width="18" height="12" /> <span>DA</span></div>
+                    <div class="language-option"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg" alt="Inglés" width="18" height="12" /> <span>EN</span></div>
+                    <div class="language-option"><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg" alt="Alemán" width="18" height="12" /> <span>DE</span></div>
+                </div>
+            </div>
+
+            <!-- Menú de navegación -->
+            <nav class="main-nav" role="navigation" aria-label="Menú principal">
+                <ul class="nav-list">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="turismo.html" aria-haspopup="true"><i class="fas fa-map-marked-alt"></i> Turismo</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="turismo.html#copenhague">Copenhague</a></li>
+                            <li><a href="turismo.html#aarhus">Aarhus</a></li>
+                            <li><a href="turismo.html#odense">Odense</a></li>
+                            <li><a href="turismo.html#aalborg">Aalborg</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cultura.html"><i class="fas fa-landmark"></i> Cultura</a></li>
+                    <li><a href="acerca.html"><i class="fas fa-info-circle"></i> Acerca</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="overlay"></div>
+
+
+    <main id="main-content" class="main-content" role="main">
+        <section class="page-header">
+            <div class="container">
+                <h1>Cultura Danesa</h1>
+                <p>Explora las tradiciones, arte y estilo de vida que hacen único a Dinamarca</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">El Arte de Vivir</h2>
+                <div class="intro-grid">
+                    <div class="intro-card">
+                        <img src="https://images.unsplash.com/photo-1556910639-8a4d7c5d32f5"
+                             class="card-image"
+                             alt="Ambiente hygge"
+                             loading="lazy">
+                        <h3>Hygge: La Felicidad Danesa</h3>
+                        <p>El concepto de "hygge" (pronunciado "hu-ga") es fundamental en la cultura danesa. Representa un ambiente acogedor y cálido, donde se valora la compañía de seres queridos y los pequeños placeres de la vida.</p>
+                        <p>Los daneses practican el hygge durante todo el año, pero especialmente en los largos inviernos, con velas, bebidas calientes, buena comida y conversaciones significativas.</p>
+                    </div>
+
+                    <div class="intro-card">
+                        <img src="https://images.unsplash.com/photo-1529175114673-66316432a594"
+                             class="card-image"
+                             alt="Diseño danés"
+                             loading="lazy">
+                        <h3>Diseño y Arquitectura</h3>
+                        <p>Dinamarca es cuna de algunos de los diseñadores y arquitectos más influyentes del mundo. El diseño danés se caracteriza por su funcionalidad, simplicidad y belleza atemporal.</p>
+                        <ul>
+                            <li>Arne Jacobsen - Arquitecto y diseñador (Silla Huevo)</li>
+                            <li>Hans J. Wegner - Diseñador de muebles (Silla China)</li>
+                            <li>Bjarke Ingels - Arquitecto contemporáneo (BIG)</li>
+                            <li>Normann Copenhagen - Empresa de diseño icónica</li>
+                        </ul>
+                    </div>
+
+                    <div class="intro-card">
+                        <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b"
+                             class="card-image"
+                             alt="Comida danesa"
+                             loading="lazy">
+                        <h3>Gastronomía</h3>
+                        <p>La cocina danesa ha ganado reconocimiento mundial, con restaurantes como Noma liderando la escena gastronómica internacional. La gastronomía danesa valora los ingredientes locales y las técnicas tradicionales.</p>
+                        <ul>
+                            <li>Smørrebrød - Bocadillos abiertos tradicionales</li>
+                            <li>Frikadeller - Albóndigas danesas</li>
+                            <li>Pastelería danesa - Especialmente los famosos "danish"</li>
+                            <li>Cerveza artesanal - Marcas como Carlsberg y Mikkeller</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-container">
+
+            <!-- Columna 1: Logo y descripción -->
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"
+                         alt="Logo Dinamarca"
+                         width="60"
+                         loading="lazy" />
+                </div>
+                <p>Portal informativo sobre Dinamarca con fines académicos. Turismo, cultura y estilo de vida nórdico.</p>
+            </div>
+
+            <!-- Columna 2: Enlaces rápidos -->
+            <div class="footer-section">
+                <h3>Explorar</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="turismo.html">Turismo</a></li>
+                    <li><a href="cultura.html">Cultura</a></li>
+                    <li><a href="acerca.html">Acerca</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Ciudades -->
+            <div class="footer-section">
+                <h3>Ciudades</h3>
+                <ul>
+                    <li><a href="turismo.html#copenhague">Copenhague</a></li>
+                    <li><a href="turismo.html#aarhus">Aarhus</a></li>
+                    <li><a href="turismo.html#odense">Odense</a></li>
+                    <li><a href="turismo.html#aalborg">Aalborg</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 4: Créditos -->
+            <div class="footer-section">
+                <h3>Créditos</h3>
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Accesibilidad</a></li>
+                    <li><strong>Desarrollado por:</strong><br /> Camila Pulido</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Portal Dinamarca. Todos los derechos reservados.</p>
+            <p>Sitio creado como proyecto final para la asignatura de Programación Web - Ingeniería Multimedia</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
